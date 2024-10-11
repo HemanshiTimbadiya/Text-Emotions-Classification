@@ -26,8 +26,6 @@ TF-IDF vectorization
 
 Model Training: Train and evaluate multiple classification models, using metrics like accuracy, precision, recall, and F1-score.
 
-Visualization: Generate visualizations of model performance, including confusion matrices and ROC curves.
-
 User Interface: A simple command-line or web interface for users to input text and receive classification results.
 
 ## Technologies Used
