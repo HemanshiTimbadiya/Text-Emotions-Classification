@@ -24,7 +24,13 @@ Stemming and lemmatization
 
 TF-IDF vectorization
 
-Model Training: Train and evaluate multiple classification models, using metrics like accuracy, precision, recall, and F1-score.
+## Model Training:
+Train a deep learning model and track:
+Training Accuracy
+Validation Accuracy
+Training Loss
+Validation Loss
+Visualization: Generate plots to visualize the metrics over epochs for better understanding of model performance.
 
 User Interface: A simple command-line or web interface for users to input text and receive classification results.
 
