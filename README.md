@@ -39,17 +39,19 @@ The Text-Emotions-Classification project is a machine learning application focus
   - `nltk` or `spaCy` for NLP processing
   - `matplotlib` and `seaborn` for data visualization
 
-## Requirements
+## Model Evaluation
 
-- Python 3.x
-- Basic understanding of machine learning and NLP concepts
+The model's performance can be evaluated using metrics such as accuracy, precision, recall, and F1-score. After training the model, you can use the `evaluate` method to get insights on its performance:
 
-## Installation
+## Installation & Usage
 
-To run this project, follow these steps:
+### Installation
+1. Clone this repository:
+   
+bash
+   git clone https://github.com/HemanshiTimbadiya/Water_potability_prediction.git  
+   
+2. Navigate to the project directory:
+  bash
+   cd Water potability prediction
 
-1. Clone the repository to your local machine:
-
-   ```bash
-   git clone https://github.com/yourusername/Text-Emotions-Classification.git
-   cd Text-Emotions-Classification
