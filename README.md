@@ -43,15 +43,29 @@ The Text-Emotions-Classification project is a machine learning application focus
 
 The model's performance can be evaluated using metrics such as accuracy, precision, recall, and F1-score. After training the model, you can use the `evaluate` method to get insights on its performance:
 
+loss, accuracy = model.evaluate(x_test, y_test)
+
+print("Accuracy of the model:", accuracy)
+
+print("Model loss:", loss)
+
 ## Installation & Usage
 
 ### Installation
 1. Clone this repository:
-   
-bash
-   git clone https://github.com/HemanshiTimbadiya/Water_potability_prediction.git  
-   
+   ```bash
+    git clone https://github.com/HemanshiTimbadiya/Text-Emotions-Classification.git
 2. Navigate to the project directory:
-  bash
-   cd Water potability prediction
+   ```bash
+   cd Text-Emotions-Classification
+   
+4. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+
+### Usage
+- Run the analysis in a Jupyter Notebook.
+- To deploy the project using Streamlit, run:
+  ```bash
+  streamlit run text_app.py 
 
